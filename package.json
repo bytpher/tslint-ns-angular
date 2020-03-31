@@ -1,0 +1,51 @@
+{
+  "name": "@bytpher/tslint-ns-angular",
+  "version": "1.0.0",
+  "description": "Recommended tslint configuration for NativeScript Angular applications.",
+  "main": "tslint.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytpher/tslint-ns-angular.git"
+  },
+  "keywords": [
+    "bytpher",
+    "tslint",
+    "angular",
+    "nativescript",
+    "henry chavez",
+    "telerik",
+    "progress"
+  ],
+  "author": {
+    "name": "Henry Chavez",
+    "email": "henry.chavez@bytpher.com",
+    "url": "https://github.com/henrychavez"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bytpher/tslint-ns-angular/issues"
+  },
+  "homepage": "https://github.com/bytpher/tslint-ns-angular#readme",
+  "scripts": {
+    "release": "standard-version -t '' "
+  },
+  "dependencies": {
+    "@bytpher/tslint-ns-core": "^1.0.0",
+    "codelyzer": "^5.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3",
+    "standard-version": "^7.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "prettier": ">= 2.0.2",
+    "prettier-tslint": "^0.4.2",
+    "pretty-quick": "^2.0.1",
+    "tslint": ">= 5.20.0",
+    "typescript": ">= 3.5.3 < 4"
+  }
+}
